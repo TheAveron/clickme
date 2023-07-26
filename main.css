@@ -1,0 +1,47 @@
+* {
+	font-weight: 300;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	border: none;
+	--sizetext: 1em;
+}
+body {
+	background-color: #002e83;
+}
+
+main {
+	width: 100vw;
+	height: 75vh;
+
+	
+}
+
+.content {
+	width: auto;
+	height: 75%;
+	display: grid;
+	padding: 5%;
+	margin-top: 1vh;
+	margin-left: 25vw;
+	margin-right: 25vw;
+}
+
+.image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: fit-content;
+}
+
+.button {
+	text-align: center;
+}
+
+a {
+	background-color: red;
+	padding: 2%;
+	color: white;
+	border-radius: 10px;
+	border: white;
+}
