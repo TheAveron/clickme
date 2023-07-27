@@ -1,47 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&display=swap');
+
 * {
 	font-weight: 300;
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
 	border: none;
-	--sizetext: 1em;
-}
-body {
-	background-color: #002e83;
-}
-
-main {
-	width: 100vw;
-	height: 75vh;
-
+	color: white;
 	
+	font-family: 'Roboto';
+	font-weight: 500;
+}
+
+body {
+	background: radial-gradient(circle, #003dad, #001a4b);
+}
+
+.main {
+	padding: 5vh 5vw;
+	width: 90vw;
+	height: 90vh;
 }
 
 .content {
+	position: relative;
 	width: auto;
-	height: 75%;
+	height: 90vh;
 	display: grid;
-	padding: 5%;
-	margin-top: 1vh;
-	margin-left: 25vw;
-	margin-right: 25vw;
 }
 
-.image {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: fit-content;
-}
+.content {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 2vh 2vw;
+	grid-auto-rows: 25vh;
 
-.button {
 	text-align: center;
 }
 
-a {
-	background-color: red;
-	padding: 2%;
-	color: white;
-	border-radius: 10px;
-	border: white;
+.image {
+	grid-column: 2;
+	grid-row: 2;
+}
+
+img {
+	max-width: 100%;
+	height: 100%;
+}
+
+.undertext {
+	grid-column: 2;
+	grid-row: 3;
+	
+	font-weight: 700;
+	font-size: x-large;
+}
+
+p {
+	margin-top: 25% ;
+}
+
+.undertext p {
+	margin-top: 20%;
+}
+
+#baptiste p, #nine p{
+	margin-top: 15%;
+}
+
+#meilin p {
+	margin-left: 15%;
+}
+
+#paul p {
+	margin-top: 12%;
+	margin-right: 15%;
+}
+
+#giraud p {
+	margin-top: 30%;
 }
